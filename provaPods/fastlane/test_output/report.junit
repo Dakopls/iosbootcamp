@@ -2,6 +2,6 @@
 <testsuites name='provaPodsTests.xctest' tests='2' failures='0'>
   <testsuite name='provaPodsTests.provaPodsTests' tests='2' failures='0'>
     <testcase classname='provaPodsTests.provaPodsTests' name='testExample' time='0.001'/>
-    <testcase classname='provaPodsTests.provaPodsTests' name='testPerformanceExample' time='0.312'/>
+    <testcase classname='provaPodsTests.provaPodsTests' name='testPerformanceExample' time='0.350'/>
   </testsuite>
 </testsuites>

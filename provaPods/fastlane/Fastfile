@@ -14,8 +14,13 @@
 update_fastlane
 cocoapods
 
+
 # classe, contenidor general
 default_platform(:ios)
+
+before_all do
+  ENV["SLACK_URL"] = ENV["team_slack_url"]
+end
 
 platform :ios do
   desc "Description of what the lane does"
