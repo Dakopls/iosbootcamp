@@ -1,0 +1,16 @@
+PODS:
+  - anim (1.2.10)
+
+DEPENDENCIES:
+  - anim
+
+SPEC REPOS:
+  trunk:
+    - anim
+
+SPEC CHECKSUMS:
+  anim: 8603b8aa9f20c26fb04bfc94967f0e942687938d
+
+PODFILE CHECKSUM: 9dcbc1121a6d426593ef0977d9201748b2ba501f
+
+COCOAPODS: 1.8.4
