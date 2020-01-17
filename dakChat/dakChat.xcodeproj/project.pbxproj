@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE55FC3323ACCA1D001494C5 /* Dadaku.png in Resources */ = {isa = PBXBuildFile; fileRef = CE55FC3223ACCA1D001494C5 /* Dadaku.png */; };
+		CE89CF6123AA7BE500840B41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89CF6023AA7BE500840B41 /* AppDelegate.swift */; };
+		CE89CF6323AA7BE500840B41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89CF6223AA7BE500840B41 /* SceneDelegate.swift */; };
+		CE89CF6523AA7BE500840B41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89CF6423AA7BE500840B41 /* ViewController.swift */; };
+		CE89CF6823AA7BE500840B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE89CF6623AA7BE500840B41 /* Main.storyboard */; };
+		CE89CF6A23AA7BE600840B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE89CF6923AA7BE600840B41 /* Assets.xcassets */; };
+		CED569B923AA8042001B0A5F /* ChatslistViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED569B723AA8042001B0A5F /* ChatslistViewCell.swift */; };
+		CED569BA23AA8042001B0A5F /* ChatslistViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED569B823AA8042001B0A5F /* ChatslistViewCell.xib */; };
+		CED569BC23AA817D001B0A5F /* ChatslistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED569BB23AA817D001B0A5F /* ChatslistViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE55FC3223ACCA1D001494C5 /* Dadaku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dadaku.png; sourceTree = "<group>"; };
+		CE89CF5D23AA7BE500840B41 /* dakChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dakChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE89CF6023AA7BE500840B41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE89CF6223AA7BE500840B41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE89CF6423AA7BE500840B41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE89CF6723AA7BE500840B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE89CF6923AA7BE600840B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE89CF6E23AA7BE600840B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED569B723AA8042001B0A5F /* ChatslistViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatslistViewCell.swift; sourceTree = "<group>"; };
+		CED569B823AA8042001B0A5F /* ChatslistViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatslistViewCell.xib; sourceTree = "<group>"; };
+		CED569BB23AA817D001B0A5F /* ChatslistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatslistViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE89CF5A23AA7BE500840B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE55FC2F23ACC3A6001494C5 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE55FC3223ACCA1D001494C5 /* Dadaku.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		CE89CF5423AA7BE500840B41 = {
+			isa = PBXGroup;
+			children = (
+				CE89CF5F23AA7BE500840B41 /* dakChat */,
+				CE89CF5E23AA7BE500840B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE89CF5E23AA7BE500840B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE89CF5D23AA7BE500840B41 /* dakChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE89CF5F23AA7BE500840B41 /* dakChat */ = {
+			isa = PBXGroup;
+			children = (
+				CE89CF6023AA7BE500840B41 /* AppDelegate.swift */,
+				CE89CF6223AA7BE500840B41 /* SceneDelegate.swift */,
+				CE89CF6423AA7BE500840B41 /* ViewController.swift */,
+				CED569BE23AA81EA001B0A5F /* chatslist */,
+				CE55FC2F23ACC3A6001494C5 /* assets */,
+				CE89CF6623AA7BE500840B41 /* Main.storyboard */,
+				CE89CF6923AA7BE600840B41 /* Assets.xcassets */,
+				CE89CF6E23AA7BE600840B41 /* Info.plist */,
+			);
+			path = dakChat;
+			sourceTree = "<group>";
+		};
+		CED569BE23AA81EA001B0A5F /* chatslist */ = {
+			isa = PBXGroup;
+			children = (
+				CED569BB23AA817D001B0A5F /* ChatslistViewController.swift */,
+				CED569B723AA8042001B0A5F /* ChatslistViewCell.swift */,
+				CED569B823AA8042001B0A5F /* ChatslistViewCell.xib */,
+			);
+			path = chatslist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE89CF5C23AA7BE500840B41 /* dakChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE89CF7123AA7BE600840B41 /* Build configuration list for PBXNativeTarget "dakChat" */;
+			buildPhases = (
+				CE89CF5923AA7BE500840B41 /* Sources */,
+				CE89CF5A23AA7BE500840B41 /* Frameworks */,
+				CE89CF5B23AA7BE500840B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dakChat;
+			productName = dakChat;
+			productReference = CE89CF5D23AA7BE500840B41 /* dakChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE89CF5523AA7BE500840B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = dak;
+				TargetAttributes = {
+					CE89CF5C23AA7BE500840B41 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = CE89CF5823AA7BE500840B41 /* Build configuration list for PBXProject "dakChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE89CF5423AA7BE500840B41;
+			productRefGroup = CE89CF5E23AA7BE500840B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE89CF5C23AA7BE500840B41 /* dakChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE89CF5B23AA7BE500840B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED569BA23AA8042001B0A5F /* ChatslistViewCell.xib in Resources */,
+				CE55FC3323ACCA1D001494C5 /* Dadaku.png in Resources */,
+				CE89CF6A23AA7BE600840B41 /* Assets.xcassets in Resources */,
+				CE89CF6823AA7BE500840B41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE89CF5923AA7BE500840B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89CF6523AA7BE500840B41 /* ViewController.swift in Sources */,
+				CE89CF6123AA7BE500840B41 /* AppDelegate.swift in Sources */,
+				CED569B923AA8042001B0A5F /* ChatslistViewCell.swift in Sources */,
+				CE89CF6323AA7BE500840B41 /* SceneDelegate.swift in Sources */,
+				CED569BC23AA817D001B0A5F /* ChatslistViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE89CF6623AA7BE500840B41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE89CF6723AA7BE500840B41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE89CF6F23AA7BE600840B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE89CF7023AA7BE600840B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE89CF7223AA7BE600840B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dakChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dak.dakChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE89CF7323AA7BE600840B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = dakChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dak.dakChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE89CF5823AA7BE500840B41 /* Build configuration list for PBXProject "dakChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE89CF6F23AA7BE600840B41 /* Debug */,
+				CE89CF7023AA7BE600840B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE89CF7123AA7BE600840B41 /* Build configuration list for PBXNativeTarget "dakChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE89CF7223AA7BE600840B41 /* Debug */,
+				CE89CF7323AA7BE600840B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE89CF5523AA7BE500840B41 /* Project object */;
+}
