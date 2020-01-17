@@ -3,6 +3,9 @@ language: swift
 #xcode_project: provaPods/provaPods.xcodeproj
 #xcode_scheme: provaPods
 
+notifications:
+    email: false
+
 script:
     - cd provaPods
     - bundle install
