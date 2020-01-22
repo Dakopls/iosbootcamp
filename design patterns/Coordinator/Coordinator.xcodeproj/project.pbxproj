@@ -68,10 +68,10 @@
 			children = (
 				CCC8D9CD23D86E3D00367CBF /* AppDelegate.swift */,
 				CCC8D9CF23D86E3D00367CBF /* SceneDelegate.swift */,
-				CCC8D9FA23D873F100367CBF /* Coordinators */,
 				CCC8D9F723D8716C00367CBF /* View controllers */,
-				CCC8D9F223D86EFD00367CBF /* Extensions */,
 				CCC8D9EF23D86E9F00367CBF /* Model */,
+				CCC8D9FA23D873F100367CBF /* Coordinators */,
+				CCC8D9F223D86EFD00367CBF /* Extensions */,
 				CCC8D9D323D86E3D00367CBF /* Main.storyboard */,
 				CCC8D9D623D86E3E00367CBF /* Assets.xcassets */,
 				CCC8D9D823D86E3E00367CBF /* LaunchScreen.storyboard */,
